@@ -1,0 +1,47 @@
+.bullet-container {
+    .bullet {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #fdff8c;
+        color: black;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        &-active {
+            background-color: #7A643E;
+            width: 60px;
+            height: 60px;
+            border: 1px solid black;
+            color: white;
+            font-weight: bold;
+        }
+
+        &-number {
+            // font-size: 1.5rem;
+            font-weight: bold;
+            position: absolute;
+            top: -15%;
+            left: 40%;
+            z-index: 1;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-button {}
+
+    }
+}
