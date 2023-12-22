@@ -1,0 +1,27 @@
+.create-post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.success {
+    text-align: center;
+    padding: 20px;
+
+    svg {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        color: #555;
+    }
+}
